@@ -1,0 +1,16 @@
+/Users/ricardorochowsegovia/Projects/ApiCad/ApiCad/bin/Debug/netstandard2.0/ApiCad.deps.json
+/Users/ricardorochowsegovia/Projects/ApiCad/ApiCad/bin/Debug/netstandard2.0/ApiCad.dll
+/Users/ricardorochowsegovia/Projects/ApiCad/ApiCad/bin/Debug/netstandard2.0/ApiCad.pdb
+/Users/ricardorochowsegovia/Projects/ApiCad/ApiCad/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/ricardorochowsegovia/Projects/ApiCad/ApiCad/obj/Debug/netstandard2.0/DrawPage.xaml.g.cs
+/Users/ricardorochowsegovia/Projects/ApiCad/ApiCad/obj/Debug/netstandard2.0/HomePage.xaml.g.cs
+/Users/ricardorochowsegovia/Projects/ApiCad/ApiCad/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/ricardorochowsegovia/Projects/ApiCad/ApiCad/obj/Debug/netstandard2.0/ProfilePage.xaml.g.cs
+/Users/ricardorochowsegovia/Projects/ApiCad/ApiCad/obj/Debug/netstandard2.0/RecordPage.xaml.g.cs
+/Users/ricardorochowsegovia/Projects/ApiCad/ApiCad/obj/Debug/netstandard2.0/ApiCad.csproj.CoreCompileInputs.cache
+/Users/ricardorochowsegovia/Projects/ApiCad/ApiCad/obj/Debug/netstandard2.0/ApiCad.AssemblyInfoInputs.cache
+/Users/ricardorochowsegovia/Projects/ApiCad/ApiCad/obj/Debug/netstandard2.0/ApiCad.AssemblyInfo.cs
+/Users/ricardorochowsegovia/Projects/ApiCad/ApiCad/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/ricardorochowsegovia/Projects/ApiCad/ApiCad/obj/Debug/netstandard2.0/ApiCad.dll
+/Users/ricardorochowsegovia/Projects/ApiCad/ApiCad/obj/Debug/netstandard2.0/ApiCad.pdb
+/Users/ricardorochowsegovia/Projects/ApiCad/ApiCad/obj/Debug/netstandard2.0/ApiCad.csprojAssemblyReference.cache
