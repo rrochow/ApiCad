@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ApiCad.Entidades
 {
-    public class ElemntsViewModel
+    public class ElementsViewModel
     {
         public string Name { get; set; }
 

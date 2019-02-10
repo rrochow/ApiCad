@@ -1,36 +1,25 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:circularButton="clr-namespace:ButtonCircle.FormsPlugin.Abstractions;assembly=ButtonCircle.FormsPlugin.Abstractions"
-             x:Class="ApiCad.RecordPage">
+             xmlns:local="clr-namespace:ListViewExample"
+             x:Class="ApiCad.RecordPage"
+             Title="Record">  
+  <ContentPage.Content>
+    <ListView x:Name="listView" RowHeight="70">
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Fill">
+              <Image Source="{Binding Image}" AbsoluteLayout.LayoutBounds="250.25, 0.25, 50, 50"/>
+            <StackLayout Orientation="Vertical">
+              <Label Text="{Binding Name}" FontSize="24" AbsoluteLayout.LayoutBounds="0.25, 0.25, 400, 40"/>
+              <Label Text="{Binding Type}" AbsoluteLayout.LayoutBounds="50, 55, 200, 25"/>
+            </StackLayout>
+            </StackLayout>
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+  </ContentPage.Content>
 
-    <ListView x:Name="MyListView"
-            ItemsSource="{Binding Plano}"
-            ItemTapped="Handle_ItemTapped"
-            CachingStrategy="RecycleElement">
-
-        <!--Built in Cells-->
-        <ListView.ItemTemplate>
-            <DataTemplate>
-                <TextCell Text="{Binding }" />
-            </DataTemplate>
-        </ListView.ItemTemplate>
-
-
-        <!--Custom View Cells-->
-        <!--
-    <ListView.ItemTemplate>
-      <DataTemplate>
-        <ViewCell>
-          <StackLayout>
-            <Label Text="{Binding Text}" 
-                   Style="{DynamicResource ListItemTextStyle}" />
-            <Label Text="{Binding Detail}" 
-                   Style="{DynamicResource ListItemDetailTextStyle}"/>
-          </StackLayout>
-        </ViewCell>
-      </DataTemplate>
-    </ListView.ItemTemplate>
-    -->
-        </ListView>
 </ContentPage>

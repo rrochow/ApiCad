@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace ApiCad
 {
-    public class RestClient
+    public class RestPlano
     {
         public async Task<List<Plano_>> Get_plano<Plano_>(string url)
         {

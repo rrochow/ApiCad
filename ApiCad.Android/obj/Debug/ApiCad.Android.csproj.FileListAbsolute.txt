@@ -33,6 +33,8 @@
 /Users/ricardorochowsegovia/Projects/ApiCad/ApiCad.Android/obj/Debug/R.cs.flag
 /Users/ricardorochowsegovia/Projects/ApiCad/ApiCad.Android/obj/Debug/R.txt
 /Users/ricardorochowsegovia/Projects/ApiCad/ApiCad.Android/obj/Debug/uploadflags.txt
+/Users/ricardorochowsegovia/Projects/ApiCad/ApiCad.Android/obj/Debug/res/drawable/icon_map.png
+/Users/ricardorochowsegovia/Projects/ApiCad/ApiCad.Android/obj/Debug/res/drawable/logo_solo.ico
 /Users/ricardorochowsegovia/Projects/ApiCad/ApiCad.Android/bin/Debug/Mono.Android.pdb
 /Users/ricardorochowsegovia/Projects/ApiCad/ApiCad.Android/bin/Debug/Newtonsoft.Json.pdb
 /Users/ricardorochowsegovia/Projects/ApiCad/ApiCad.Android/bin/Debug/Xamarin.Forms.Core.pdb

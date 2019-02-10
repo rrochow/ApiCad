@@ -12,6 +12,7 @@ using System.Text.RegularExpressions;
 
 namespace ApiCad
 {
+
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MainPage : ContentPage
     {

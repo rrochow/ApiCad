@@ -4,7 +4,6 @@ using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
 using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -13,7 +12,7 @@ namespace ApiCad
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class RecordPage : ContentPage
     {
-        public ObservableCollection<string> Items { get; set; }
+        public ObservableCollection<ElementsViewModel> Items { get; set; }
 
         public RecordPage()
         {
@@ -26,16 +25,22 @@ namespace ApiCad
             base.OnAppearing();
 
             Device.BeginInvokeOnMainThread(async () => {
-                RestClient client = new RestClient();
-                var usuario = await client.Get_plano<Plano_>("https://apicad.herokuapp.com/api/v1/draws/all");
-                if (usuario != null)
+                RestPlano client = new RestPlano();
+                var plano = await client.Get_plano<Plano_>("https://apicad.herokuapp.com/api/v1/draws/all");
+                if (plano != null)
                 {
-                    Items = new ObservableCollection<string>();
-                    foreach (var c in usuario)
+                    Items = new ObservableCollection<ElementsViewModel>();
+                    foreach (var c in plano)
                     {
-                        Items.Add(c.Plano.name + " " + c.Plano.type_plan);
+                        //Items.Add(c.Plano.name + " " + c.Plano.type_plan);
+                        Items.Add(new ElementsViewModel
+                        {
+                            Image   = "icon_map.png",
+                            Name    = c.Plano.name,
+                            Type    = c.Plano.type_plan
+                        });
                     }
-                    MyListView.ItemsSource = Items;
+                    listView.ItemsSource = Items;
                 }
             });
 
@@ -46,7 +51,7 @@ namespace ApiCad
             if (e.Item == null)
                 return;
 
-            await DisplayAlert("Usuario existente", "Usuario existente", "OK");
+            await DisplayAlert("Mapa", "llevar al mapa", "OK");
 
             //Deselect Item
             ((ListView)sender).SelectedItem = null;

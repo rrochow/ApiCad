@@ -4,8 +4,8 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-  <application android:label="ApiCad.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon" android:debuggable="true">
-    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="ApiCad" android:theme="@style/MainTheme" android:name="md505607056bba34db61be153fc13754ccb.MainActivity">
+  <application android:label="ApiCad.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@drawable/logo_solo" android:debuggable="true">
+    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/logo_solo" android:label="ApiCad" android:theme="@style/MainTheme" android:name="md505607056bba34db61be153fc13754ccb.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

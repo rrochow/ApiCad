@@ -157,4 +157,10 @@
       <Name>ApiCad</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\icon_map.png" />
+    <BundleResource Include="Resources\logo.png" />
+    <BundleResource Include="Resources\Login.jpg" />
+    <BundleResource Include="Resources\logo_solo.png" />
+  </ItemGroup>
 </Project>

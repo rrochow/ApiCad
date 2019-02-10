@@ -1,16 +1,18 @@
 ﻿<Properties StartupConfiguration="{526AA4C1-3629-4B1A-B5D9-31336CE83E23}|Default">
-  <MonoDevelop.Ide.ItemProperties.ApiCad.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.Nexus_5X_API_24" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ApiCad/MainPage.xaml.cs">
+  <MonoDevelop.Ide.ItemProperties.ApiCad.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.268335b8031c7ece" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ApiCad/RecordPage.xaml.cs">
     <Files>
       <File FileName="ApiCad/MainPage.xaml" Line="28" Column="15" />
-      <File FileName="ApiCad/HomePage.xaml.cs" Line="1" Column="1" />
+      <File FileName="ApiCad/HomePage.xaml.cs" Line="8" Column="26" />
       <File FileName="ApiCad/HomePage.xaml" Line="13" Column="14" />
-      <File FileName="ApiCad/RecordPage.xaml" Line="37" Column="1" />
+      <File FileName="ApiCad/RecordPage.xaml" Line="26" Column="1" />
+      <File FileName="ApiCad/RecordPage.xaml.cs" Line="54" Column="42" />
       <File FileName="ApiCad/Entidades/Plano.cs" Line="22" Column="22" />
       <File FileName="ApiCad/Entidades/User.cs" Line="68" Column="10" />
-      <File FileName="ApiCad/RecordPage.xaml.cs" Line="31" Column="37" />
-      <File FileName="ApiCad/MainPage.xaml.cs" Line="39" Column="20" />
-      <File FileName="ApiCad/Rest.cs" Line="57" Column="42" />
+      <File FileName="ApiCad/MainPage.xaml.cs" Line="16" Column="53" />
+      <File FileName="ApiCad/Rest.cs" Line="55" Column="30" />
+      <File FileName="ApiCad/Entidades/ElementsViewModel.cs" Line="9" Column="35" />
+      <File FileName="ApiCad.Android/MainActivity.cs" Line="12" Column="60" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>
